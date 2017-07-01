@@ -19,9 +19,9 @@ function guess() {
 function setHiddenFields() {
   attempt.value = 0;
   answer.value = Math.floor((Math.random() * 10000) + 1);
-  answer = answer.toString();
+  answer.toString();
   var zero = 0;
-  zero = zero.toString();
+  zero.toString();
   // will put 0 in front of number if less than 4 digits
   while(answer.length < 4){
     answer = zero + answer;
