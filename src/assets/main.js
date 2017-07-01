@@ -19,7 +19,8 @@ function guess() {
 function setHiddenFields() {
   var attempt = document.getElementById('attempt').innerHTML;
   attempt = 0;
-  var answer = Math.floor((Math.random() * 10000) + 1);
+  var answer = document.getElementById('answer').value; 
+  answer = Math.floor((Math.random() * 10000) + 1);
   answer = answer.toString();
   var zero = 0;
   zero = zero.toString();
@@ -44,5 +45,5 @@ function validateInput(value) {
 }
 
 function getResults(degree) {
-  
+
 }
