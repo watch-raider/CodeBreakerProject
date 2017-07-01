@@ -17,9 +17,7 @@ function guess() {
 //implement new functions here
 
 function setHiddenFields() {
-  var attempt = document.getElementById('attempt').innerHTML;
-  attempt = 0;
-  var answer = document.getElementById('answer').value; 
+  attempt.value = 0;
   answer = Math.floor((Math.random() * 10000) + 1);
   answer = answer.toString();
   var zero = 0;
