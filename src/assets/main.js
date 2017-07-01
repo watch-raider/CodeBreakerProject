@@ -24,7 +24,7 @@ function setHiddenFields() {
   zero.toString();
   // will put 0 in front of number if less than 4 digits
   while(answer.length < 4){
-    answer = zero + answer;
+    answer.innerHTML = zero + answer;
   }
 };
 
