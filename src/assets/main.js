@@ -10,7 +10,7 @@ function guess() {
     if(!validateInput(input.value)){
       return false;
     } else {
-      attempt = attempt + 1;
+      attempt.value = attempt.value + 1;
     }
 };
 
