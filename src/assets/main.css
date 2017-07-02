@@ -1,6 +1,6 @@
 .code {
   font-size: 50px;
-  padding-left: 70px;
+  text-align: center;
 }
 
 .failure {
@@ -17,4 +17,20 @@
 
 .message {
   font-weight: bold;
+}
+
+.rules {
+  border: 2px solid #ff0000;
+  margin-top: 10px;
+}
+
+#title {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#results {
+  border: 1px dashed #ffcc00;
+  width: 200px;
+  padding: 5px;
 }
